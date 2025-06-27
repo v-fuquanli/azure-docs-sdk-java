@@ -1,15 +1,15 @@
 {
-  "Name": "azure-resourcemanager-search",
+  "Name": "azure-resourcemanager-storage",
   "Version": "2.52.0-alpha.20250626.5",
   "DevVersion": "2.52.0-alpha.20250626.5",
-  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-search",
+  "DirectoryPath": "sdk/resourcemanager/azure-resourcemanager-storage",
   "ServiceDirectory": "resourcemanager",
-  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-search/README.md",
-  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-search/CHANGELOG.md",
+  "ReadMePath": "sdk/resourcemanager/azure-resourcemanager-storage/README.md",
+  "ChangeLogPath": "sdk/resourcemanager/azure-resourcemanager-storage/CHANGELOG.md",
   "Group": "com.azure.resourcemanager",
   "SdkType": "mgmt",
   "IsNewSdk": true,
-  "ArtifactName": "azure-resourcemanager-search",
+  "ArtifactName": "azure-resourcemanager-storage",
   "ReleaseStatus": "2025-06-27",
   "IncludedForValidation": false,
   "AdditionalValidationPackages": [
@@ -19,21 +19,21 @@
     "com.azure:perf-test-core"
   ],
   "ArtifactDetails": {
-    "name": "azure-resourcemanager-search",
+    "name": "azure-resourcemanager-storage",
     "triggeringPaths": [
       "/sdk/resourcemanager/ci.yml"
     ],
     "groupId": "com.azure.resourcemanager",
-    "releaseInBatch": "${{ parameters.release_azureresourcemanagersearch }}",
-    "safeName": "azureresourcemanagersearch"
+    "releaseInBatch": "${{ parameters.release_azureresourcemanagerstorage }}",
+    "safeName": "azureresourcemanagerstorage"
   },
   "CIParameters": {
     "CIMatrixConfigs": []
   },
   "Namespaces": [
-    "com.azure.resourcemanager.search",
-    "com.azure.resourcemanager.search.fluent",
-    "com.azure.resourcemanager.search.fluent.models",
-    "com.azure.resourcemanager.search.models"
+    "com.azure.resourcemanager.storage",
+    "com.azure.resourcemanager.storage.fluent",
+    "com.azure.resourcemanager.storage.fluent.models",
+    "com.azure.resourcemanager.storage.models"
   ]
 }
